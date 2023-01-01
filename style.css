@@ -1,52 +1,52 @@
 body {
-  background-color: #dad7cd;
+    background-color: #c4eaec;
 }
+
 .header {
-  text-align: center;
-  color: #f1faee;
-  background-color: #354f52;
+    text-align: center;
+    color: #f1faee;
+    background-color: #522b53;
 }
+
 main {
-  text-align: center;
+    text-align: center;
 }
+
 .search,
 .selector {
-  display: inline-block;
+    display: inline-block;
 }
+
 .container {
-  /* display: grid; */
-  margin: 15px auto;
-  width: 90%;
-  display: flex;
-  flex-flow: row-reverse wrap;
-  /* justify-content: center; */
-  justify-content: space-around;
+    margin: 21px auto;
+    width: 86%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
 }
 
 span,
 h3 {
-  margin: 5px;
+    margin: 15px;
 }
+
 span {
-  font-size: 15px;
+    font-size: 15px;
 }
+
 .container div {
-  padding: 10px;
-  width: 250px;
-  height: 350px;
-  border: solid 1px;
-  box-shadow: 10px 10px 10px 5px gray;
-  border-radius: 10px;
-  margin-top: 50px;
-  background-color: #84a98c;
+    padding: 15px;
+    width: 260px;
+    height: 540px;
+    border: solid 1px;
+    box-shadow: 10px 10px 10px 5px gray;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #804f79;
 }
-.container div p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+
 .container div h3 {
-  width: 250;
-  height: 22px;
-  overflow: hidden;
+    width: 250;
+    height: 22px;
+    overflow: hidden;
 }
